@@ -26,8 +26,8 @@ EOM
 
 declare -A file_types
 # The language    # File pattern # Exclude files
-file_types[0]="php|-name '*.php'|! -name '*.blade.php'"
-file_types[1]="html|-name '*.blade.php'|"
+file_types[0]="cpp|-name '*.cpp'|"
+file_types[1]="h|-name '*.h'|"
 # DONE EDITING! :)
 
 input_minted_header () {
